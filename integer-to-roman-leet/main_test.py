@@ -36,6 +36,3 @@ class TestIntegerToRoman(unittest.TestCase):
 
     def test_1(self):
         self.assertEqual(self.sol.intToRoman(1), 'I')
-
-if __name__ == '__main__':
-    unittest.main()
