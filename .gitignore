@@ -1,2 +1,22 @@
-/venv
-__pycache__
+# Ignore all files without extensions
+*.
+
+# Allow directories
+!*/
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+venv/
+
+# Ignore build artifacts for C projects
+/build/
+*.o
+*.out
+*.dSYM
+
+# Allow specific important file without extension (example)
+#!importantfile
